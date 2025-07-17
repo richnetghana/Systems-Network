@@ -1,6 +1,0 @@
-- name: Configure OPNsense and edge nodes
-  hosts: all
-  become: true
-  roles:
-    - opnsense_config
-    - edge_node_setup
